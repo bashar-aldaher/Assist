@@ -2,194 +2,255 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- font awesome 5  -->
-    <link rel="stylesheet" href="assest/Plugins/Font-awesome/css/all.min.css">
+    <link rel="stylesheet" href="assest/Plugins/Font-awesome/css/all.min.css" />
     <!-- Owl Carousel  -->
-    <link rel="stylesheet" href="assest/Plugins/owlcarousel/assets/owl.carousel.min.css">
-    <link rel="stylesheet" href="assest/Plugins/owlcarousel/assets/owl.theme.default.min.css">
-    <!-- Aos  -->
-    <link rel="stylesheet" href="assest/Plugins/Aos/aos.css" />
+    <link rel="stylesheet" href="assest/Plugins/owlcarousel/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="assest/Plugins/owlcarousel/assets/owl.theme.default.min.css" />
     <!-- Costomize Style  -->
-    <link rel="stylesheet" href="assest/css/style.css">
+    <link rel="stylesheet" href="assest/css/style.css" />
     <title>Assist</title>
 </head>
 
 <body>
-
     <!-- nav  -->
-    <nav class="top-nav" id="Topnav">
+    <nav class="top-nav" id="topNav">
         <div class="container">
-            <div class="logo-bx">
-                <a href="#"><img class="logo" src="logo.png" /></a>
-                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <a href="#" class="logo-aria">
+                <img src="logo.png" />
+                <span>Assist</span>
+            </a>
+            <div class="menu-aria">
+                <ul class="nav-menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#deals">Deals</a></li>
+                    <li><a href="#Features">Features</a></li>
+                    <li><a href="#us">About Us</a></li>
+                    <li><a href="#Social_Media">Contact</a></li>
+                </ul>
+                <ul class="mobile-nav-menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#deals">Deals</a></li>
+                    <li><a href="#Features">Features</a></li>
+                    <li><a href="#us">About Us</a></li>
+                    <li><a href="#Social_Media">Contact</a></li>
+                </ul>
+                <button class="mobile-menu-btn">
                     <i class="fa fa-bars"></i>
+                </button>
+                <a href="index-ar.html" class="lang-btn">
+                    <i class="fa fa-globe"></i>
+                    <span>ar</span>
                 </a>
             </div>
-
-            <ul>
-                <li><a href="#main">Home</a></li>
-                <li><a href="#deals">Deals</a></li>
-                <li><a href="#Features">Features</a></li>
-                <li><a href="#us">About Us</a></li>
-                <li><a href="#Social_Media">Contact</a></li>
-                <!-- <li><a href="arabic-index.html"><i class="fa fa-globe"></i> AR</a></li> -->
-            </ul>
         </div>
     </nav>
     <!-- end nav  -->
 
-    <!-- hero  -->
-    <section id="main" class="hero">
+    <!-- Header Start  -->
+    <header>
         <div class="container">
-            <div data-aos="fade-left" class="bio">
-                <h1>
-                    ASSIST
-                </h1>
+            <div class="header-content">
+                <h1>ASSIST</h1>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.container
-                    officia natus? Delectus ratione architecto repellendus
-                    sed aliquid quos aspernatur minus sint, laudantium ex ut qui illo rem, cumque, natus nam?
+                    officia natus? Delectus ratione architecto repellendus sed aliquid
+                    quos aspernatur minus sint, laudantium ex ut qui illo rem, cumque,
+                    natus nam?
                 </p>
             </div>
-            <div data-aos="fade-right" class="main-img">
-                <img class="img-fluid" src="logo.jpg" />
+            <div class="header-img">
+                <img class="img-fluid" src="logo.png" />
+                <span>Assist</span>
             </div>
         </div>
-    </section>
+    </header>
     <!-- end hero  -->
 
     <!-- start Social media Section -->
-    <section id="Social_Media" class="Social_Media">
+    <section id="socialMediaSection">
         <div class="container">
-
-            <div data-aos="fade-down-right">
-                <h5>Social Media</h5>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores, sunt in? Est pariatur
-                    consequatur aspernatur.</p>
+            <div class="content-area">
+                <h2>Social Media</h2>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores,
+                    sunt in? Est pariatur consequatur aspernatur.
+                </p>
             </div>
-
-
-            <ul data-aos="fade-down-left">
-                <li> <a href=""><i class='fab fa-facebook'></i></a> </li>
-                <li> <a href=""><i class='fab fa-instagram'></i></a></li>
-                <li> <a href=""><i class='fab fa-tiktok'></i></a></li>
-                <li> <a href=""><i class='fab fa-steam'></i></a></li>
-                <li> <a href=""><i class='fab fa-github'></i></a></li>
-                <li> <a href=""><i class='fab fa-sketch'></i></a></li>
+            <ul class="social-icons-list">
+                <li>
+                    <a href="https://www.facebook.com/we.assist.it"><i class="fab fa-facebook"></i></a>
+                </li>
+                <li>
+                    <a href="https://t.me/we_assist_it"><i class="fab fa-telegram"></i></a>
+                </li>
+                <li>
+                    <a href=""><i class="fab fa-whatsapp"></i></a>
+                </li>
             </ul>
         </div>
     </section>
     <!-- End Social media Section -->
 
-    <!-- Deals section -->
-    <section data-aos="fade-down" id="deals" class="deals">
-        <div class="title">Deals</div>
+    <!-- Start Deals Section -->
+    <section id="dealsSection">
+        <h2 class="section-title">Deals</h2>
         <div class="owl-carousel owl-theme deals-carousel">
             <div class="item">
-                <img class="img" src="assest/img/carousel-img2.jfif" />
+                <img class="item-img" src="assest/img/carousel-img2.jfif" />
                 <div class="item-info">
-                    <div class="item-title">Flutter</div>
-                    <div class="item-descreption">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime,
+                    <h3 class="item-title">Flutter</h3>
+                    <p class="item-descreption">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime,
                         tenetur.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi velit itaque recusandae qui unde
-                        assumenda saepe provident modi nulla voluptates sunt consequuntur, dolorem, perferendis quos ad,
-                        pariatur quibusdam earum? Ducimus?</div>
+                    </p>
                 </div>
             </div>
             <div class="item">
-                <img class="img" src="assest/img/carousel-img2.jfif" />
+                <img class="item-img" src="assest/img/carousel-img2.jfif" />
                 <div class="item-info">
-                    <div class="item-title">Flutter</div>
-                    <div class="item-descreption">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime,
+                    <h3 class="item-title">Flutter</h3>
+                    <p class="item-descreption">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime,
                         tenetur.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi velit itaque recusandae qui unde
-                        assumenda saepe provident modi nulla voluptates sunt consequuntur, dolorem, perferendis quos ad,
-                        pariatur quibusdam earum? Ducimus?</div>
+                    </p>
                 </div>
             </div>
             <div class="item">
-                <img class="img" src="assest/img/carousel-img2.jfif" />
+                <img class="item-img" src="assest/img/carousel-img2.jfif" />
                 <div class="item-info">
-                    <div class="item-title">Flutter</div>
-                    <div class="item-descreption">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime,
+                    <h3 class="item-title">Flutter</h3>
+                    <p class="item-descreption">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime,
                         tenetur.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi velit itaque recusandae qui unde
-                        assumenda saepe provident modi nulla voluptates sunt consequuntur, dolorem, perferendis quos ad,
-                        pariatur quibusdam earum? Ducimus?</div>
+                    </p>
                 </div>
             </div>
             <div class="item">
-                <img class="img" src="assest/img/carousel-img2.jfif" />
+                <img class="item-img" src="assest/img/carousel-img2.jfif" />
                 <div class="item-info">
-                    <div class="item-title">Flutter</div>
-                    <div class="item-descreption">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime,
+                    <h3 class="item-title">Flutter</h3>
+                    <p class="item-descreption">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime,
                         tenetur.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi velit itaque recusandae qui unde
-                        assumenda saepe provident modi nulla voluptates sunt consequuntur, dolorem, perferendis quos ad,
-                        pariatur quibusdam earum? Ducimus?</div>
-                </div>
-            </div>
-            <div class="item">
-                <img class="img" src="assest/img/carousel-img2.jfif" />
-                <div class="item-info">
-                    <div class="item-title">Flutter</div>
-                    <div class="item-descreption">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime,
-                        tenetur.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi velit itaque recusandae qui unde
-                        assumenda saepe provident modi nulla voluptates sunt consequuntur, dolorem, perferendis quos ad,
-                        pariatur quibusdam earum? Ducimus?</div>
+                    </p>
                 </div>
             </div>
         </div>
     </section>
-    <!-- End Deals section  -->
+    <!-- End Deals Section  -->
 
     <!-- Our Team section  -->
-    <section id="us" class="our-team container">
-        <div data-aos="fade-up" class="title">Our Team</div>
-        <div class="owl-carousel owl-theme our-team-carousel">
-            <div data-aos="fade-zoom-in" class="item">
-                <img src="assest/img/avatar1.webp" />
-                <div class="info">
-                    <div class="name">amjad alshah</div>
-                    <div class="job">backend developper</div>
+    <section id="ourTeamSection">
+        <h2 class="section-title">Our Team</h2>
+        <div class="container">
+            <div class="owl-carousel owl-theme our-team-carousel">
+                <div class="item">
+                    <img class="item-img" src="assest/img/team/abdtlemat.jpg" />
+                    <div class="item-info">
+                        <h3>Abdallah Tulimat</h3>
+                        <span>Administrative Maneger & IT Head</span>
+                    </div>
                 </div>
-            </div>
-            <div data-aos="fade-zoom-in" class="item">
-                <img src="assest/img/avatar1.webp" />
-                <div class="info">
-                    <div class="name">amjad alshah</div>
-                    <div class="job">backend developper</div>
+                <div class="item">
+                    <img class="item-img" src="assest/img/team/homam.jpg" />
+                    <div class="item-info">
+                        <h3>Homam Sharbek </h3>
+                        <span>General Manger</span>
+                    </div>
                 </div>
-            </div>
-            <div data-aos="fade-zoom-in" class="item">
-                <img src="assest/img/avatar1.webp" />
-                <div class="info">
-                    <div class="name">amjad alshah</div>
-                    <div class="job">backend developper</div>
+                <div class="item">
+                    <img class="item-img" src="assest/img/team/amjad.jpg" />
+                    <div class="item-info">
+                        <h3>Amjad AlShah</h3>
+                        <span>Team Leader</span>
+                    </div>
                 </div>
-            </div>
-            <div data-aos="fade-zoom-in" class="item">
-                <img src="assest/img/avatar1.webp" />
-                <div class="info">
-                    <div class="name">amjad alshah</div>
-                    <div class="job">backend developper</div>
+                <div class="item">
+                    <img class="item-img" src="assest/img/team/talha.jpg" />
+                    <div class="item-info">
+                        <h3>Talha Alqsayer</h3>
+                        <span>Team Leader</span>
+                    </div>
                 </div>
-            </div>
-            <div data-aos="fade-zoom-in" class="item">
-                <img src="assest/img/avatar1.webp" />
-                <div class="info">
-                    <div class="name">amjad alshah</div>
-                    <div class="job">backend developper</div>
+                <div class="item">
+                    <img class="item-img" src="assest/img/team/reham.jpg" />
+                    <div class="item-info">
+                        <h3>Reham Alshkef</h3>
+                        <span>Financial head</span>
+                    </div>
                 </div>
-            </div>
-            <div data-aos="fade-zoom-in" class="item">
-                <img src="assest/img/avatar1.webp" />
-                <div class="info">
-                    <div class="name">amjad alshah</div>
-                    <div class="job">backend developper</div>
+                <div class="item">
+                    <img class="item-img" src="assest/img/team/jehan.jpg" />
+                    <div class="item-info">
+                        <h3>Jehan Kassouha </h3>
+                        <span>Customer Relations Head</span>
+                    </div>
+                </div>
+                <div class="item">
+                    <img class="item-img" src="assest/img/team/ellen.jpg" />
+                    <div class="item-info">
+                        <h3>Ellen Farah </h3>
+                        <span>Trainning Head</span>
+                    </div>
+                </div>
+                <div class="item">
+                    <img class="item-img" src="assest/img/team/nisreen.jpg" />
+                    <div class="item-info">
+                        <h3>Nisreen Buhlak</h3>
+                        <span>H.R</span>
+                    </div>
+                </div>
+                <div class="item">
+                    <img class="item-img" src="assest/img/team/hala.jpg" />
+                    <div class="item-info">
+                        <h3>Hala Dahi</h3>
+                        <span>Trainning Coordinator</span>
+                    </div>
+                </div>
+                <div class="item">
+                    <img class="item-img" src="assest/img/team/sulimanalkhateeb.jpg" />
+                    <div class="item-info">
+                        <h3>Suliman Alkhateeb </h3>
+                        <span>Marketing Head</span>
+                    </div>
+                </div>
+                <div class="item">
+                    <img class="item-img" src="assest/img/team/avatar.jpg" />
+                    <div class="item-info">
+                        <h3>Salam Alshami</h3>
+                        <span>Internship (Flutter)</span>
+                    </div>
+                </div>
+                <div class="item">
+                    <img class="item-img" src="assest/img/team/avatar.jpg" />
+                    <div class="item-info">
+                        <h3>Suliman Suliman</h3>
+                        <span>Flutter Developper</span>
+                    </div>
+                </div>
+                <div class="item">
+                    <img class="item-img" src="assest/img/team/yosef.jpg" />
+                    <div class="item-info">
+                        <h3>Yousef Alnokari</h3>
+                        <span>Internship</span>
+                    </div>
+                </div>
+                <div class="item">
+                    <img class="item-img" src="assest/img/team/nawwar.jpg" />
+                    <div class="item-info">
+                        <h3>Nawar Ghaith</h3>
+                        <span>Internship (Front-end)</span>
+                    </div>
+                </div>
+                <div class="item">
+                    <img class="item-img" src="assest/img/team/bashar.jpg" />
+                    <div class="item-info">
+                        <h3>Bashar Aldaher</h3>
+                        <span>Internship (Front-end)</span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -197,64 +258,62 @@
     <!-- end Our Team section -->
 
     <!-- Features section  -->
-    <section id="Features" class="features">
-        <div data-aos="fade-down" class="container">
-            <div class="title">
-                Features
-            </div>
-            <div class='features-container'>
-                <div data-aos="flip-right" class='feature'>
-                    <i class="fa fa-code"></i>
-                    <div class='info'>
-                        <div class='feature-title'>
-                            Programming
-                        </div>
-                        <div class='feature-info'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit possimus
-                            iure velit aspernatur temporibus quaerat impedit, voluptate rem perspiciatis tenetur.</div>
-                    </div>
-                </div>
-                <div data-aos="flip-right" class='feature'>
-                    <i class="fas fa-chart-bar"></i>
-                    <div class='info'>
-                        <div class='feature-title'>
-                            Marketing
-                        </div>
-                        <div class='feature-info'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit possimus
-                            iure velit aspernatur temporibus quaerat impedit, voluptate rem perspiciatis tenetur.</div>
-                    </div>
-                </div>
-                <div data-aos="flip-right" class='feature'>
-                    <i class="fas fa-calculator"></i>
-                    <div class='info'>
-                        <div class='feature-title'>
-                            Accounting
-                        </div>
-                        <div class='feature-info'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit possimus
-                            iure velit aspernatur temporibus quaerat impedit, voluptate rem perspiciatis tenetur.</div>
-                    </div>
+    <section id="featuresSection">
+        <h2 class="section-title">Features</h2>
+        <div class="container">
+            <div class="item">
+                <i class="fa fa-code"></i>
+                <div class="item-info">
+                    <h3 class="item-title">Programming</h3>
+                    <p class="item-description">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit
+                        possimus iure velit aspernatur temporibus quaerat impedit,
+                        voluptate rem perspiciatis tenetur.
+                    </p>
                 </div>
             </div>
-            <div class='features-container'>
-
-                <div data-aos="flip-right" class='feature'>
-                    <i class="fas fa-chalkboard"></i>
-                    <div class='info'>
-                        <div class='feature-title'>
-                            Training
-                        </div>
-                        <div class='feature-info'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit possimus
-                            iure velit aspernatur temporibus quaerat impedit, voluptate rem perspiciatis tenetur.</div>
-                    </div>
+            <div class="item">
+                <i class="fas fa-chart-bar"></i>
+                <div class="item-info">
+                    <h3 class="item-title">Marketing</h3>
+                    <p class="item-description">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit
+                        possimus iure velit aspernatur temporibus quaerat impedit,
+                        voluptate rem perspiciatis tenetur.
+                    </p>
                 </div>
-                <div data-aos="flip-right" class='feature'>
-                    <i class="fas fa-pen-nib"></i>
-                    <div class='info'>
-                        <div class='feature-title'>
-                            Design
-                        </div>
-                        <div class='feature-info'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit possimus
-                            iure velit aspernatur temporibus quaerat impedit, voluptate rem perspiciatis tenetur.</div>
-                    </div>
+            </div>
+            <div class="item">
+                <i class="fas fa-calculator"></i>
+                <div class="item-info">
+                    <h3 class="item-title">Accounting</h3>
+                    <p class="item-description">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit
+                        possimus iure velit aspernatur temporibus quaerat impedit,
+                        voluptate rem perspiciatis tenetur.
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <i class="fas fa-chalkboard"></i>
+                <div class="item-info">
+                    <h3 class="item-title">Training</h3>
+                    <p class="item-description">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit
+                        possimus iure velit aspernatur temporibus quaerat impedit,
+                        voluptate rem perspiciatis tenetur.
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <i class="fas fa-pen-nib"></i>
+                <div class="item-info">
+                    <h3 class="item-title">Design</h3>
+                    <p class="item-description">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit
+                        possimus iure velit aspernatur temporibus quaerat impedit,
+                        voluptate rem perspiciatis tenetur.
+                    </p>
                 </div>
             </div>
         </div>
@@ -262,19 +321,21 @@
     <!-- End Features section  -->
 
     <!-- Footer  -->
-    <Footer>
-        <div class='container'>
-            <div class='social'>
-                <a href='#'><i class='fab fa-facebook'></i></a>
-                <a href='#'><i class='fab fa-instagram'></i></a>
-                <a href='#'><i class='fab fa-telegram'></i></a>
-                <a href='#'><i class="fa fa-user"></i></a>
-                <a href='#'><i class='fa fa-envelope'></i></a>
-                <a href='#'><i class='fa fa-globe'></i></a>
-            </div>
-            <div class='copyright'>&copy; 2022 Assist company</div>
-        </div>
-    </Footer>
+    <footer>
+        <ul class="social-icons-list">
+            <li>
+                <a href="https://www.facebook.com/we.assist.it"><i class="fab fa-facebook"></i></a>
+            </li>
+            <li>
+                <a href="https://t.me/we_assist_it"><i class="fab fa-telegram"></i></a>
+            </li>
+            <li>
+                <a href=""><i class="fab fa-whatsapp"></i></a>
+            </li>
+        </ul>
+        <a href="#" class="to-top"><i class="fas fa-arrow-circle-up"></i></a>
+        <div class="copyright">&copy; 2022 Assist company</div>
+    </footer>
     <!-- End Footer  -->
 
     <!--Jquery-->
@@ -282,40 +343,8 @@
     <!-- Owl Carousel js -->
     <script src="assest/Plugins/owlcarousel/owl.carousel.min.js"></script>
     <!-- Owl Carousel Settings -->
-    <script>
-        function myFunction() {
-            var x = document.getElementById("Topnav");
-            if (x.className === "top-nav") {
-                x.className += " responsive";
-            } else {
-                x.className = "top-nav";
-            }
-        }
-        $('.deals-carousel').owlCarousel({
-            loop: true,
-            margin: 10,
-            items: 1,
-            autoplay: true,
-            autoplayTimeout: 2000,
-            autoplayHoverPause: true
-        })
-        $('.our-team-carousel').owlCarousel({
-            loop: true,
-            margin: 10,
-            items: 1,
-            responsive: {
-                1000: {
-                    items: 3,
-                }
-            }
-        })
-    </script>
+    <script src="assest/js/scripts.js"></script>
     <!-- End Owl Carousel Settings  -->
-    <!-- Aos  -->
-    <script src="assest/Plugins/Aos/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
 </body>
 
 </html>
