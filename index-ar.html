@@ -2,179 +2,261 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- font awesome 5  -->
-    <link rel="stylesheet" href="assest/Plugins/Font-awesome/css/all.min.css">
+    <link rel="stylesheet" href="assest/Plugins/Font-awesome/css/all.min.css" />
     <!-- Owl Carousel  -->
-    <link rel="stylesheet" href="assest/Plugins/owlcarousel/assets/owl.carousel.min.css">
-    <link rel="stylesheet" href="assest/Plugins/owlcarousel/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="assest/Plugins/owlcarousel/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="assest/Plugins/owlcarousel/assets/owl.theme.default.min.css" />
+    <!-- Aos  -->
+    <link rel="stylesheet" href="assest/Plugins/Aos/aos.css" />
     <!-- Costomize Style  -->
-    <link rel="stylesheet" href="assest/css/style.css">
+    <link rel="stylesheet" href="assest/css/style.css" />
     <title>Assist</title>
 </head>
 
-<body style="direction: rtl;">
-
+<body style="direction:rtl;">
     <!-- nav  -->
-    <nav class="top-nav" id="Topnav">
+    <nav class="top-nav" id="topNav">
         <div class="container">
-            <div class="logo-bx">
-                <a href="#" ><img class="logo" src="logo2.png" /></a>
-                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                    <i class="fa fa-bars"></i>
-                </a>
+            <a href="#" class="logo-aria">
+                <img src="logo.png" />
+                <span>Assist</span>
+            </a>
+            <div class="menu-aria">
+                <ul class="nav-menu">
+                    <li><a href="#">رئيسية</a></li>
+                    <li><a href="#deals">عروض</a></li>
+                    <li><a href="#Features">خدمات</a></li>
+                    <li><a href="#us">من نحن؟</a></li>
+                    <li><a href="#Social_Media">تواصل معنا</a></li>
+                </ul>
+                <div class="nav-assest">
+                    <a href="index.html" class="lang-btn">
+                        <i class="fa fa-globe"></i>
+                        <span>ar</span>
+                    </a>
+                    <a href="javascript:void(0);" class="mobile-menu-btn" onclick="showMobileNav()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </div>
             </div>
-            <ul>
-                <li><a href="#main">رئيسية </a></li>
-                <li><a href="#deals">عروض</a></li>
-                <li><a href="#features">خدمات</a></li>
-                <li><a href="#us">من نحن؟ </a></li>
-                <li><a href="#Social_Media">تواصل معنا </a></li>
-                <li><a href="index.html"><i class="fa fa-globe"></i></a></li>
-            </ul>
         </div>
     </nav>
     <!-- end nav  -->
 
-    <!-- hero  -->
-    <section  id="main" class="hero">
+    <!-- Header Start  -->
+    <header>
         <div class="container">
-            <div class="bio">
-                <h1>
-                Assist
-                </h1>
+            <div data-aos="fade-right" class="header-content">
+                <h1>ASSIST</h1>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.container
-                    officia natus? Delectus ratione architecto repellendus
-                    sed aliquid quos aspernatur minus sint, laudantium ex ut qui illo rem, cumque, natus nam?
+                    officia natus? Delectus ratione architecto repellendus sed aliquid
+                    quos aspernatur minus sint, laudantium ex ut qui illo rem, cumque,
+                    natus nam?
                 </p>
             </div>
-            <div class="main-img">
-                <img class="img-fluid" src="logo.jpg">
+            <div data-aos="fade-left" class="header-img">
+                <img class="img-fluid" src="logo.png" />
+                <span>Assist</span>
             </div>
         </div>
-    </section>
+    </header>
     <!-- end hero  -->
 
     <!-- start Social media Section -->
-    <section id="Social_Media" class="Social_Media">
+    <section id="socialMediaSection">
         <div class="container">
-
-            <div>
-                <h5>تواصل اجتماعي  </h5>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores, sunt in? Est pariatur
-                    consequatur aspernatur.</p>
+            <div data-aos="fade-up-right" class="content-area">
+                <h2>تواصل اجتماعي</h2>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo, labore?
+                </p>
             </div>
-
-
-            <ul>
-                <li> <a href=""><i class='fab fa-facebook'></i></a> </li>
-                <li> <a href=""><i class='fab fa-instagram'></i></a></li>
-                <li> <a href=""><i class='fab fa-tiktok'></i></a></li>
-                <li> <a href=""><i class='fab fa-steam'></i></a></li>
-                <li> <a href=""><i class='fab fa-github'></i></a></li>
-                <li> <a href=""><i class='fab fa-sketch'></i></a></li>
+            <ul data-aos="fade-up-left" class="social-icons-list">
+                <li>
+                    <a href="https://www.facebook.com/we.assist.it"><i class="fab fa-facebook"></i></a>
+                </li>
+                <li>
+                    <a href="https://t.me/we_assist_it"><i class="fab fa-telegram"></i></a>
+                </li>
+                <li>
+                    <a href=""><i class="fab fa-whatsapp"></i></a>
+                </li>
             </ul>
-
-        </div>
-        </div>
         </div>
     </section>
     <!-- End Social media Section -->
 
-    <!-- Deals section -->
-    <section id="deals" class="deals">
-        <div class="title">عروض</div>
-        <div class="owl-carousel owl-theme deals-carousel">
+    <!-- Start Deals Section -->
+    <section id="dealsSection">
+        <h2 data-aos="fade-down" class="section-title">عروض</h2>
+        <div data-aos="fade-down" class="owl-carousel owl-theme deals-carousel">
             <div class="item">
-                <img class="img" src="assest/img/carousel-img2.jfif" />
+                <img class="item-img" src="assest/img/deals/carousel-img1.jfif" />
                 <div class="item-info">
-                    <div class="item-title">فلاتر </div>
-                    <div class="item-descreption">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime,
-                        tenetur.</div>
+                    <h3 class="item-title">فلاتر</h3>
+                    <p class="item-descreption">
+                        تعلم الفلاتر بالكامل مع افضل المعلمين والمشرفين
+                    </p>
                 </div>
             </div>
             <div class="item">
-                <img class="img" src="assest/img/carousel-img2.jfif" />
+                <img class="item-img" src="assest/img/deals/carousel-img2.jfif" />
                 <div class="item-info">
-                    <div class="item-title">Flutter</div>
-                    <div class="item-descreption">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime,
-                        tenetur.</div>
+                    <h3 class="item-title">فلاتر</h3>
+                    <p class="item-descreption">
+                        تعلم الفلاتر بالكامل مع افضل المعلمين والمشرفين
+                    </p>
                 </div>
             </div>
             <div class="item">
-                <img class="img" src="assest/img/carousel-img2.jfif" />
+                <img class="item-img" src="assest/img/deals/carousel-img3.jfif" />
                 <div class="item-info">
-                    <div class="item-title">Flutter</div>
-                    <div class="item-descreption">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime,
-                        tenetur.</div>
+                    <h3 class="item-title">فلاتر</h3>
+                    <p class="item-descreption">
+                        تعلم الفلاتر بالكامل مع افضل المعلمين والمشرفين
+                    </p>
                 </div>
             </div>
             <div class="item">
-                <img class="img" src="assest/img/carousel-img2.jfif" />
+                <img class="item-img" src="assest/img/deals/carousel-img1.jfif" />
                 <div class="item-info">
-                    <div class="item-title">Flutter</div>
-                    <div class="item-descreption">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime,
-                        tenetur.</div>
-                </div>
-            </div>
-            <div class="item">
-                <img class="img" src="assest/img/carousel-img2.jfif" />
-                <div class="item-info">
-                    <div class="item-title">Flutter</div>
-                    <div class="item-descreption">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime,
-                        tenetur.</div>
+                    <h3 class="item-title">فلاتر</h3>
+                    <p class="item-descreption">
+                        تعلم الفلاتر بالكامل مع افضل المعلمين والمشرفين
+                    </p>
                 </div>
             </div>
         </div>
     </section>
-    <!-- End Deals section  -->
+    <!-- End Deals Section  -->
 
     <!-- Our Team section  -->
-    <section  id="us" class="our-team container">
-        <div class="title">فريق العمل </div>
-        <div class="owl-carousel owl-theme our-team-carousel">
-            <div class="item">
-                <img src="assest/img/avatar1.webp" />
-                <div class="info">
-                    <div class="name">أمجد الشاه</div>
-                    <div class="job">مطور مواقع ويب </div>
+    <section id="ourTeamSection">
+        <h2 data-aos="fade-up" class="section-title">فريقنا</h2>
+        <div data-aos="fade-up" class="container">
+            <div class="owl-carousel owl-theme our-team-carousel">
+                <div class="item">
+                    <img class="item-img" src="assest/img/team/abdtlemat.jpg" />
+                    <div class="item-info">
+                        <h3>Abdallah Tulimat</h3>
+                        <span>Administrative Maneger & IT Head</span>
+                    </div>
                 </div>
-            </div>
-            <div class="item">
-                <img src="assest/img/avatar1.webp" />
-                <div class="info">
-                    <div class="name">amjad alshah</div>
-                    <div class="job">backend developper</div>
+                <div class="item">
+                    <img class="item-img" src="assest/img/team/homam.jpg" />
+                    <div class="item-info">
+                        <h3>Homam Sharbek </h3>
+                        <span>Founder & CEO</span>
+                    </div>
                 </div>
-            </div>
-            <div class="item">
-                <img src="assest/img/avatar1.webp" />
-                <div class="info">
-                    <div class="name">amjad alshah</div>
-                    <div class="job">backend developper</div>
+                <div class="item">
+                    <img class="item-img" src="assest/img/team/marwan.jpg" />
+                    <div class="item-info">
+                        <h3>Marwan Seef Aldeen</h3>
+                        <span>General Manger</span>
+                    </div>
                 </div>
-            </div>
-            <div class="item">
-                <img src="assest/img/avatar1.webp" />
-                <div class="info">
-                    <div class="name">amjad alshah</div>
-                    <div class="job">backend developper</div>
+                <div class="item">
+                    <img class="item-img" src="assest/img/team/amjad.jpg" />
+                    <div class="item-info">
+                        <h3>Amjad AlShah</h3>
+                        <span>Team Leader</span>
+                    </div>
                 </div>
-            </div>
-            <div class="item">
-                <img src="assest/img/avatar1.webp" />
-                <div class="info">
-                    <div class="name">amjad alshah</div>
-                    <div class="job">backend developper</div>
+                <div class="item">
+                    <img class="item-img" src="assest/img/team/talha.jpg" />
+                    <div class="item-info">
+                        <h3>Talha Alqsayer</h3>
+                        <span>Team Leader</span>
+                    </div>
                 </div>
-            </div>
-            <div class="item">
-                <img src="assest/img/avatar1.webp" />
-                <div class="info">
-                    <div class="name">amjad alshah</div>
-                    <div class="job">backend developper</div>
+                <div class="item">
+                    <img class="item-img" src="assest/img/team/avatar.jpg" />
+                    <div class="item-info">
+                        <h3>Suliman Suliman</h3>
+                        <span>Flutter Developper</span>
+                    </div>
+                </div>
+                <div class="item">
+                    <img class="item-img" src="assest/img/team/reham.jpg" />
+                    <div class="item-info">
+                        <h3>Reham Alshkef</h3>
+                        <span>Financial head</span>
+                    </div>
+                </div>
+                <div class="item">
+                    <img class="item-img" src="assest/img/team/jehan.jpg" />
+                    <div class="item-info">
+                        <h3>Jehan Kassouha </h3>
+                        <span>Customer Relations Head</span>
+                    </div>
+                </div>
+                <div class="item">
+                    <img class="item-img" src="assest/img/team/ellen.jpg" />
+                    <div class="item-info">
+                        <h3>Ellen Farah</h3>
+                        <span>Trainning Head</span>
+                    </div>
+                </div>
+                <div class="item">
+                    <img class="item-img" src="assest/img/team/nisreen.jpg" />
+                    <div class="item-info">
+                        <h3>Nisreen Buhlak</h3>
+                        <span>H.R</span>
+                    </div>
+                </div>
+                <div class="item">
+                    <img class="item-img" src="assest/img/team/hala.jpg" />
+                    <div class="item-info">
+                        <h3>Hala Dahi</h3>
+                        <span>Trainning Coordinator</span>
+                    </div>
+                </div>
+                <div class="item">
+                    <img class="item-img" src="assest/img/team/sulimanalkhateeb.jpg" />
+                    <div class="item-info">
+                        <h3>Suliman Alkhateeb </h3>
+                        <span>Marketing Head</span>
+                    </div>
+                </div>
+                <div class="item">
+                    <img class="item-img" src="assest/img/team/avatar.jpg" />
+                    <div class="item-info">
+                        <h3>Salam Alshami</h3>
+                        <span>Internship (Flutter)</span>
+                    </div>
+                </div>
+                <div class="item">
+                    <img class="item-img" src="assest/img/team/yosef.jpg" />
+                    <div class="item-info">
+                        <h3>Yousef Alnokari</h3>
+                        <span>Internship (Flutter)</span>
+                    </div>
+                </div>
+                <div class="item">
+                    <img class="item-img" src="assest/img/team/nawwar.jpg" />
+                    <div class="item-info">
+                        <h3>Nawar Ghaith</h3>
+                        <span>Internship (Front-end)</span>
+                    </div>
+                </div>
+                <div class="item">
+                    <img class="item-img" src="assest/img/team/bashar.jpg" />
+                    <div class="item-info">
+                        <h3>Bashar Aldaher</h3>
+                        <span>Internship (Front-end)</span>
+                    </div>
+                </div>
+                <div class="item">
+                    <img class="item-img" src="assest/img/team/hana.jpg" />
+                    <div class="item-info">
+                        <h3>Hana Alsoud</h3>
+                        <span>Internship (Laravel)</span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -182,61 +264,62 @@
     <!-- end Our Team section -->
 
     <!-- Features section  -->
-    <section  id="features" class="features">
+    <section id="featuresSection">
+        <h2 data-aos="fade-down" class="section-title">الخدمات</h2>
         <div class="container">
-            <div class="title">
-                خدمات 
+            <div data-aos="flip-right" class="item">
+                <i class="fa fa-code"></i>
+                <div class="item-info">
+                    <h3 class="item-title">برمجة</h3>
+                    <p class="item-description">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit
+                        possimus iure velit aspernatur temporibus quaerat impedit,
+                        voluptate rem perspiciatis tenetur.
+                    </p>
+                </div>
             </div>
-            <div class='features-container'>
-                <div class='feature'>
-                    <i class="fa fa-code"></i>
-                    <div class='info'>
-                        <div class='feature-title'>
-                            برمجة
-                        </div>
-                        <div class='feature-info'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit possimus
-                            iure velit aspernatur temporibus quaerat impedit, voluptate rem perspiciatis tenetur.</div>
-                    </div>
+            <div data-aos="flip-right" class="item">
+                <i class="fas fa-chart-bar"></i>
+                <div class="item-info">
+                    <h3 class="item-title">تسويق</h3>
+                    <p class="item-description">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit
+                        possimus iure velit aspernatur temporibus quaerat impedit,
+                        voluptate rem perspiciatis tenetur.
+                    </p>
                 </div>
-                <div class='feature'>
-                    <i class="fas fa-chart-bar"></i>
-                    <div class='info'>
-                        <div class='feature-title'>
-                            تسويق
-                        </div>
-                        <div class='feature-info'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit possimus
-                            iure velit aspernatur temporibus quaerat impedit, voluptate rem perspiciatis tenetur.</div>
-                    </div>
+            </div>
+            <div data-aos="flip-right" class="item">
+                <i class="fas fa-calculator"></i>
+                <div class="item-info">
+                    <h3 class="item-title">محاسبة</h3>
+                    <p class="item-description">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit
+                        possimus iure velit aspernatur temporibus quaerat impedit,
+                        voluptate rem perspiciatis tenetur.
+                    </p>
                 </div>
-                <div class='feature'>
-                    <i class="fas fa-calculator"></i>
-                    <div class='info'>
-                        <div class='feature-title'>
-                            محاسبة 
-                        </div>
-                        <div class='feature-info'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit possimus
-                            iure velit aspernatur temporibus quaerat impedit, voluptate rem perspiciatis tenetur.</div>
-                    </div>
+            </div>
+            <div data-aos="flip-right" class="item">
+                <i class="fas fa-chalkboard"></i>
+                <div class="item-info">
+                    <h3 class="item-title">تدريب</h3>
+                    <p class="item-description">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit
+                        possimus iure velit aspernatur temporibus quaerat impedit,
+                        voluptate rem perspiciatis tenetur.
+                    </p>
                 </div>
-                <div class='feature'>
-                    <i class="fas fa-robot"></i>
-                    <div class='info'>
-                        <div class='feature-title'>
-                            تدريب
-                        </div>
-                        <div class='feature-info'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit possimus
-                            iure velit aspernatur temporibus quaerat impedit, voluptate rem perspiciatis tenetur.</div>
-                    </div>
-                </div>
-                <div class='feature'>
-                    <i class="fas fa-pen-nib"></i>
-                    <div class='info'>
-                        <div class='feature-title'>
-                            تصميم
-                        </div>
-                        <div class='feature-info'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit possimus
-                            iure velit aspernatur temporibus quaerat impedit, voluptate rem perspiciatis tenetur.</div>
-                    </div>
+            </div>
+            <div data-aos="flip-right" class="item">
+                <i class="fas fa-pen-nib"></i>
+                <div class="item-info">
+                    <h3 class="item-title">تصميم</h3>
+                    <p class="item-description">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit
+                        possimus iure velit aspernatur temporibus quaerat impedit,
+                        voluptate rem perspiciatis tenetur.
+                    </p>
                 </div>
             </div>
         </div>
@@ -244,57 +327,68 @@
     <!-- End Features section  -->
 
     <!-- Footer  -->
-    <Footer>
-        <div class='container'>
-            <div class='social'>
-                <a href='#'><i class='fab fa-facebook'></i></a>
-                <a href='#'><i class='fab fa-instagram'></i></a>
-                <a href='#'><i class='fab fa-telegram'></i></a>
-                <a href='#'><i class="fa fa-user"></i></a>
-                <a href='#'><i class='fa fa-envelope'></i></a>
-                <a href='#'><i class='fa fa-globe'></i></a>
-            </div>
-            <div class='copyright'>&copy; 2022 assist company</div>
-        </div>
-    </Footer>
+    <footer>
+        <ul class="social-icons-list">
+            <li>
+                <a href="https://www.facebook.com/we.assist.it"><i class="fab fa-facebook"></i></a>
+            </li>
+            <li>
+                <a href="https://t.me/we_assist_it"><i class="fab fa-telegram"></i></a>
+            </li>
+            <li>
+                <a href=""><i class="fab fa-whatsapp"></i></a>
+            </li>
+        </ul>
+        <a href="#" class="to-top"><i class="fas fa-arrow-circle-up"></i></a>
+        <div class="copyright">&copy; 2022 Assist company</div>
+    </footer>
     <!-- End Footer  -->
 
     <!--Jquery-->
     <script src="assest/js/jquery.min.js"></script>
+    <!-- Aos  -->
+    <script src="assest/Plugins/Aos/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     <!-- Owl Carousel js -->
     <script src="assest/Plugins/owlcarousel/owl.carousel.min.js"></script>
     <!-- Owl Carousel Settings -->
+    <script src="assest/js/scripts.js"></script>
+    <!-- End Owl Carousel Settings  -->
+    <!-- Costomize Owl Carousel -->
     <script>
-        function myFunction() {
-            var x = document.getElementById("Topnav");
-            if (x.className === "top-nav") {
-                x.className += " responsive";
-            } else {
-                x.className = "top-nav";
-            }
-        }
         $('.deals-carousel').owlCarousel({
             loop: true,
             margin: 10,
             items: 1,
+            rtl: true,
             autoplay: true,
-            autoplayTimeout: 2000,
-            autoplayHoverPause: true,
-            rtl:true
+            autoplayTimeout: 5000,
+            autoplayHoverPause: true
         })
+
         $('.our-team-carousel').owlCarousel({
-            loop:true,
-            margin:10,
             items: 1,
-            rtl:true,
-            responsive:{
-        1000:{
-            items:3,
-        }
-    }
+            rtl: true,
+            responsive: {
+                0: {
+                    items: 1,
+
+                },
+                800: {
+                    items: 2,
+                },
+                1500: {
+                    items: 3
+                },
+                1600: {
+                    items: 4
+                }
+            }
         })
     </script>
-    <!-- End Owl Carousel Settings  -->
+    <!-- End Costomize Owl Carousel -->
 </body>
 
 </html>
